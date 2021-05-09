@@ -61,9 +61,9 @@ export default function Blogs({ blog }) {
                         ))}
                     </div>
 
-                    <div className="prose">
+                    <article className="unprose prose-xl mt-6">
                         {documentToReactComponents(content)}
-                    </div>
+                    </article>
                 </div>
 
 
